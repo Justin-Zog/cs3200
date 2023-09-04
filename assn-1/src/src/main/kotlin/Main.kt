@@ -6,8 +6,8 @@ import kotlin.random.Random
 fun main() {
     montyHallSim()
     montyHallSim(changeDoor = true)
-    prisonersProblemSim(prisoners = 1000)
-    prisonersProblemSim(prisoners = 1000, isRandomBox = false)
+    prisonersProblemSim()
+    prisonersProblemSim(isRandomBox = false)
 }
 
 
